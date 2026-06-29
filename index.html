@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="YellowBean Cafe — Bold flavor. Brighter mornings. Artisanal coffee, fresh pastries and co-working space across three flagship branches." />
+    <title>YellowBean Cafe — Bold Flavor. Brighter Mornings.</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- =================== NAVBAR =================== -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#home" class="logo" aria-label="YellowBean Cafe home">
+                <span class="logo-icon"><img src="/image/bsc_image.jpg" alt=""></span>
+                <span class="logo-text">BSC <span class="logo-accent">CHAI</span><span class="logo-text"> WAlA</span></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#branches" class="nav-link">Branches</a>
+                <a href="#franchise" class="nav-link">Franchise</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#careers" class="nav-link">Careers</a>
+                <a href="#order" class="btn btn-yellow nav-cta">Order Now</a>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- =================== HERO =================== -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-left reveal">
+                <span class="eyebrow"><i class="fa-solid fa-bolt"></i> Roasted fresh daily</span>
+                <h1 class="hero-title">
+                    Bold Flavor.<br />
+                    <span class="hl">Brighter</span> Mornings.
+                </h1>
+                <p class="hero-sub">
+                    Single-origin beans, slow-pulled espresso and pastries baked before sunrise.
+                    YellowBean is where caffeine meets craft — three cafés, one obsession.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#services" class="btn btn-yellow">
+                        <i class="fa-solid fa-mug-saucer"></i> View Menu
+                    </a>
+                    <a href="#branches" class="btn btn-ghost">
+                        <i class="fa-solid fa-location-dot"></i> Find a Branch
+                    </a>
+                </div>
+
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <strong>4.9★</strong>
+                        <span>2,400+ reviews</span>
+                    </div>
+                    <div class="meta-divider"></div>
+                    <div class="meta-item">
+                        <strong>3</strong>
+                        <span>Flagship branches</span>
+                    </div>
+                    <div class="meta-divider"></div>
+                    <div class="meta-item">
+                        <strong>100%</strong>
+                        <span>Organic beans</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-right reveal">
+                <div class="hero-visual">
+                    <div class="blob"></div>
+                    <img
+                        src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80"
+                        alt="A floating ceramic cup of espresso on a black background"
+                        class="hero-cup"
+                    />
+                    <div class="float-chip chip-1">
+                        <i class="fa-solid fa-seedling"></i>
+                        <span>Ethiopia Yirgacheffe</span>
+                    </div>
+                    <div class="float-chip chip-2">
+                        <i class="fa-solid fa-fire"></i>
+                        <span>Roasted 2 days ago</span>
+                    </div>
+                    <div class="float-chip chip-3">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>Ready in 4 min</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>ESPRESSO</span><span>•</span>
+                <span>POUR OVER</span><span>•</span>
+                <span>COLD BREW</span><span>•</span>
+                <span>PASTRIES</span><span>•</span>
+                <span>CO-WORKING</span><span>•</span>
+                <span>SINGLE ORIGIN</span><span>•</span>
+                <span>ESPRESSO</span><span>•</span>
+                <span>POUR OVER</span><span>•</span>
+                <span>COLD BREW</span><span>•</span>
+                <span>PASTRIES</span><span>•</span>
+                <span>CO-WORKING</span><span>•</span>
+                <span>SINGLE ORIGIN</span><span>•</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== ABOUT =================== -->
+    <section class="section about" id="about">
+        <div class="container about-grid">
+            <div class="about-left reveal">
+                <span class="kicker">Our Philosophy</span>
+                <h2 class="section-title">Coffee with a <span class="hl">conscience</span>.</h2>
+                <p class="lead">
+                    YellowBean was built on a single belief — that great coffee should never be ordinary.
+                    We source ethically from smallholder farms in Ethiopia, Colombia and Sumatra,
+                    roast in small batches, and pull every shot with the same patience our growers
+                    pour into their harvest.
+                </p>
+                <ul class="philosophy-list">
+                    <li><i class="fa-solid fa-check"></i> Direct-trade beans from 14 verified farms</li>
+                    <li><i class="fa-solid fa-check"></i> Roasted in-house, never older than 7 days</li>
+                    <li><i class="fa-solid fa-check"></i> Compostable cups, lids and pastry sleeves</li>
+                    <li><i class="fa-solid fa-check"></i> Baristas trained for 90+ hours before the bar</li>
+                </ul>
+            </div>
+
+            <div class="about-right reveal">
+                <div class="founder-card">
+                    <div class="founder-img-wrap">
+                        <img
+                            src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80"
+                            alt="Portrait of Amara Okafor, founder of YellowBean Cafe"
+                            class="founder-img"
+                        />
+                        <span class="founder-badge"><i class="fa-solid fa-mug-hot"></i> Founder</span>
+                    </div>
+                    <div class="founder-body">
+                        <span class="kicker dark">Meet the founder</span>
+                        <h3 class="founder-name">Amara Okafor</h3>
+                        <p class="founder-bio">
+                            “I opened YellowBean above a laundromat in 2017 with a second-hand La Marzocco
+                            and one rule: never serve a cup I wouldn't queue for myself. Eight years later,
+                            three branches and a roastery in, that rule still runs the bar.”
+                        </p>
+                        <div class="founder-meta">
+                            <span><i class="fa-solid fa-award"></i> SCA Certified Q-Grader</span>
+                            <span><i class="fa-solid fa-mug-hot"></i> 8 years brewing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== SERVICES =================== -->
+    <section class="section services dark-band" id="services">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="kicker light">What we serve</span>
+                <h2 class="section-title light">More than just <span class="hl">caffeine</span>.</h2>
+                <p class="lead light">
+                    Four reasons regulars keep coming back — and one reason they bring their laptops.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card reveal" data-testid="service-card-roasts">
+                    <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1559496417-e7f25cb247cd?auto=format&fit=crop&w=900&q=80');"></div>
+                    <div class="service-body">
+                        <span class="service-icon"><i class="fa-solid fa-fire"></i></span>
+                        <h3>Artisanal Roasts</h3>
+                        <p>Small-batch beans roasted on a 1958 Probat. Light, medium and dark profiles, dialed weekly.</p>
+                    </div>
+                </article>
+
+                <article class="service-card reveal" data-testid="service-card-wifi">
+                    <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=80');"></div>
+                    <div class="service-body">
+                        <span class="service-icon"><i class="fa-solid fa-wifi"></i></span>
+                        <h3>Co-Working Wi-Fi</h3>
+                        <p>Gigabit fiber, unlimited refills on filter coffee, and power outlets at every seat. Yes, every seat.</p>
+                    </div>
+                </article>
+
+                <article class="service-card reveal" data-testid="service-card-pastries">
+                    <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80');"></div>
+                    <div class="service-body">
+                        <span class="service-icon"><i class="fa-solid fa-bread-slice"></i></span>
+                        <h3>Fresh Pastries</h3>
+                        <p>Croissants laminated at 4am, sourdough by 7. Vegan, gluten-free and gloriously buttery options daily.</p>
+                    </div>
+                </article>
+
+                <article class="service-card reveal" data-testid="service-card-events">
+                    <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&w=900&q=80');"></div>
+                    <div class="service-body">
+                        <span class="service-icon"><i class="fa-solid fa-champagne-glasses"></i></span>
+                        <h3>Private Events</h3>
+                        <p>Cupping sessions, latte-art classes, book launches and after-hours bookings for up to 80 guests.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== BRANCHES =================== -->
+    <section class="section branches" id="branches">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="kicker">Our Franchises</span>
+                <h2 class="section-title">Three cafés. <span class="hl">One obsession.</span></h2>
+                <p class="lead">Drop in for a flat white, a focused afternoon, or a Saturday with friends.</p>
+            </div>
+
+            <div class="branches-grid">
+                <article class="branch-card reveal">
+                    <div class="branch-img" style="background-image:url('https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=900&q=80');">
+                        <span class="branch-tag">Flagship</span>
+                    </div>
+                    <div class="branch-body">
+                        <h3>YellowBean Downtown</h3>
+                        <ul class="branch-info">
+                            <li><i class="fa-solid fa-location-dot"></i> 412 Beacon Street, Suite 1A, Boston, MA 02115</li>
+                            <li><i class="fa-solid fa-phone"></i> <a href="tel:+16175550142">+1 (617) 555-0142</a></li>
+                            <li><i class="fa-solid fa-clock"></i> Mon–Fri 6:30am – 8:00pm</li>
+                            <li><i class="fa-regular fa-clock"></i> Sat–Sun 7:30am – 9:00pm</li>
+                        </ul>
+                        <a class="btn btn-outline btn-sm" href="https://maps.google.com" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-arrow-right-long"></i> Get Directions
+                        </a>
+                    </div>
+                </article>
+
+                <article class="branch-card reveal">
+                    <div class="branch-img" style="background-image:url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80');">
+                        <span class="branch-tag">Roastery</span>
+                    </div>
+                    <div class="branch-body">
+                        <h3>YellowBean Brooklyn</h3>
+                        <ul class="branch-info">
+                            <li><i class="fa-solid fa-location-dot"></i> 89 Wythe Avenue, Williamsburg, Brooklyn, NY 11249</li>
+                            <li><i class="fa-solid fa-phone"></i> <a href="tel:+17185550319">+1 (718) 555-0319</a></li>
+                            <li><i class="fa-solid fa-clock"></i> Mon–Fri 7:00am – 9:00pm</li>
+                            <li><i class="fa-regular fa-clock"></i> Sat–Sun 8:00am – 10:00pm</li>
+                        </ul>
+                        <a class="btn btn-outline btn-sm" href="https://maps.google.com" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-arrow-right-long"></i> Get Directions
+                        </a>
+                    </div>
+                </article>
+
+                <article class="branch-card reveal">
+                    <div class="branch-img" style="background-image:url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80');">
+                        <span class="branch-tag">New</span>
+                    </div>
+                    <div class="branch-body">
+                        <h3>YellowBean Mission</h3>
+                        <ul class="branch-info">
+                            <li><i class="fa-solid fa-location-dot"></i> 1247 Valencia Street, Mission District, San Francisco, CA 94110</li>
+                            <li><i class="fa-solid fa-phone"></i> <a href="tel:+14155550287">+1 (415) 555-0287</a></li>
+                            <li><i class="fa-solid fa-clock"></i> Mon–Fri 6:00am – 7:30pm</li>
+                            <li><i class="fa-regular fa-clock"></i> Sat–Sun 7:00am – 8:30pm</li>
+                        </ul>
+                        <a class="btn btn-outline btn-sm" href="https://maps.google.com" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-arrow-right-long"></i> Get Directions
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== FRANCHISE OPPORTUNITY =================== -->
+    <section class="section franchise-cta" id="franchise">
+        <div class="container franchise-grid">
+            <div class="franchise-left reveal">
+                <span class="kicker">Franchise Opportunity</span>
+                <h2 class="section-title">Own a <span class="hl">YellowBean</span>.</h2>
+                <p class="lead">
+                    We're opening 12 new locations in the next 24 months. If you've got the location and the
+                    drive, we'll bring the beans, the brand and a playbook that's already worked three times.
+                </p>
+
+                <div class="benefits">
+                    <div class="benefit">
+                        <span class="benefit-num">01</span>
+                        <h4>Proven Unit Economics</h4>
+                        <p>Average payback under 22 months across our existing branches.</p>
+                    </div>
+                    <div class="benefit">
+                        <span class="benefit-num">02</span>
+                        <h4>Full Launch Support</h4>
+                        <p>Site selection, build-out design, staff training and a 90-day on-site partner.</p>
+                    </div>
+                    <div class="benefit">
+                        <span class="benefit-num">03</span>
+                        <h4>Marketing That Works</h4>
+                        <p>National campaigns, social playbooks, and a loyalty app with 38,000+ active users.</p>
+                    </div>
+                </div>
+
+                <a href="#order" class="btn btn-yellow btn-lg">
+                    <i class="fa-solid fa-handshake"></i> Apply for Franchise
+                </a>
+            </div>
+
+            <div class="franchise-right reveal">
+                <div class="franchise-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80"
+                        alt="Inside view of YellowBean cafe with warm lighting and customers working"
+                    />
+                    <div class="franchise-overlay">
+                        <div class="overlay-stat">
+                            <strong>$420K</strong>
+                            <span>Avg. Year-1 Revenue</span>
+                        </div>
+                        <div class="overlay-stat">
+                            <strong>22 mo</strong>
+                            <span>Avg. Payback</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== HAPPY CUSTOMERS (STATS) =================== -->
+    <section class="section stats dark-band" id="stats">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="kicker light">Happy Customers</span>
+                <h2 class="section-title light">The numbers behind the <span class="hl">buzz</span>.</h2>
+            </div>
+
+            <div class="stats-grid" id="statsGrid">
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fa-solid fa-mug-saucer"></i></div>
+                    <div class="stat-number" data-target="18000" data-suffix="+">0</div>
+                    <div class="stat-label">Coffees Served</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fa-solid fa-store"></i></div>
+                    <div class="stat-number" data-target="3" data-suffix="">0</div>
+                    <div class="stat-label">Active Branches</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fa-solid fa-star"></i></div>
+                    <div class="stat-number" data-target="4.9" data-suffix="★" data-decimals="1">0</div>
+                    <div class="stat-label">Average Star Rating</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fa-solid fa-seedling"></i></div>
+                    <div class="stat-number" data-target="100" data-suffix="%">0</div>
+                    <div class="stat-label">Organic Beans</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== REVIEWS =================== -->
+    <section class="section reviews" id="reviews">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="kicker">Customer Reviews</span>
+                <h2 class="section-title">What our regulars <span class="hl">are saying</span>.</h2>
+            </div>
+
+            <div class="reviews-grid">
+                <article class="review-card reveal">
+                    <div class="stars" aria-label="5 out of 5 stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">
+                        "The Yirgacheffe pour-over is genuinely the best coffee I've had in Boston.
+                        Staff actually know what they're talking about — no eye-rolls when you ask questions."
+                    </p>
+                    <div class="reviewer">
+                        <div class="avatar" aria-hidden="true">JM</div>
+                        <div>
+                            <strong>Jordan Mendez</strong>
+                            <span>Downtown regular</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card reveal">
+                    <div class="stars" aria-label="5 out of 5 stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">
+                        "I write here three days a week. Fast Wi-Fi, comfortable seats, and the oat flat white
+                        is unfairly good. The Brooklyn branch quietly became my second office."
+                    </p>
+                    <div class="reviewer">
+                        <div class="avatar" aria-hidden="true">PR</div>
+                        <div>
+                            <strong>Priya Raman</strong>
+                            <span>Freelance designer</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card reveal">
+                    <div class="stars" aria-label="4.5 out of 5 stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="review-text">
+                        "Booked the Mission branch for a 40-person product launch. Setup was flawless,
+                        the cupping demo was a hit, and three guests are now regulars. Worth every penny."
+                    </p>
+                    <div class="reviewer">
+                        <div class="avatar" aria-hidden="true">DK</div>
+                        <div>
+                            <strong>Daniel Kowalski</strong>
+                            <span>Event organizer</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== CAREERS =================== -->
+    <section class="section careers" id="careers">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="kicker">Careers</span>
+                <h2 class="section-title">Join the <span class="hl">Crew</span>.</h2>
+                <p class="lead">We hire for curiosity first, latte art second. Both are teachable — only one is rare.</p>
+            </div>
+
+            <div class="jobs-grid">
+                <article class="job-card reveal">
+                    <div class="job-top">
+                        <span class="job-tag">Full-time</span>
+                        <span class="job-loc"><i class="fa-solid fa-location-dot"></i> Brooklyn, NY</span>
+                    </div>
+                    <h3>Head Barista</h3>
+                    <p>
+                        Lead the bar, dial in espresso daily, mentor 4 junior baristas and shape our seasonal menu.
+                        SCA Barista Level 2 preferred.
+                    </p>
+                    <div class="job-meta">
+                        <span><i class="fa-solid fa-mug-hot"></i> 3+ years specialty</span>
+                        <span><i class="fa-solid fa-dollar-sign"></i> $26–$31/hr + tips</span>
+                    </div>
+                    <a href="#order" class="btn btn-yellow btn-sm">
+                        <i class="fa-solid fa-paper-plane"></i> Apply
+                    </a>
+                </article>
+
+                <article class="job-card reveal">
+                    <div class="job-top">
+                        <span class="job-tag">Full-time</span>
+                        <span class="job-loc"><i class="fa-solid fa-location-dot"></i> San Francisco, CA</span>
+                    </div>
+                    <h3>Store Manager</h3>
+                    <p>
+                        Run the Mission branch end-to-end. Own the P&amp;L, build the team, and help us open
+                        location #4 in 2026. Hospitality or F&amp;B leadership background required.
+                    </p>
+                    <div class="job-meta">
+                        <span><i class="fa-solid fa-briefcase"></i> 5+ years leadership</span>
+                        <span><i class="fa-solid fa-dollar-sign"></i> $72K–$84K + bonus</span>
+                    </div>
+                    <a href="#order" class="btn btn-yellow btn-sm">
+                        <i class="fa-solid fa-paper-plane"></i> Apply
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== FOOTER =================== -->
+    <footer class="footer" id="order">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#home" class="logo logo-footer">
+                    <span class="logo-icon"><i class="fa-solid fa-mug-hot"></i></span>
+                    <span class="logo-text">Yellow<span class="logo-accent">Bean</span></span>
+                </a>
+                <p class="footer-tag">
+                    Bold flavor. Brighter mornings.<br />
+                    Roasted, poured and served with intent.
+                </p>
+                <div class="socials">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Menu &amp; Services</a></li>
+                    <li><a href="#branches">Find a Branch</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#franchise">Franchise</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Stay in the loop</h4>
+                <p class="footer-note">Get drops, new roasts and event invites. No spam, just caffeine.</p>
+                <form class="newsletter" onsubmit="event.preventDefault(); this.querySelector('button').innerHTML='<i class=&quot;fa-solid fa-check&quot;></i> Subscribed';">
+                    <input type="email" required placeholder="you@morning.com" aria-label="Email address" />
+                    <button type="submit" class="btn btn-yellow btn-sm">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <span>© <span id="year">2025</span> YellowBean Cafe Co. All rights reserved.</span>
+                <span class="footer-fine">
+                    <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Accessibility</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="to-top" id="toTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
